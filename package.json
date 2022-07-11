@@ -1,0 +1,13 @@
+{
+  "name": "Mvc-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "global.css": "^1.1.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "npm:sass"
+  }
+}

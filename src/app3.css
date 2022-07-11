@@ -1,0 +1,22 @@
+#app3{
+    border: 1px solid green;
+    width: 50vw;
+    height: 50vh;
+    left: 0;
+    bottom: 0;
+}
+
+#app3 .square{
+    border: 1px solid rgb(162, 215, 240);
+    background: rgb(17, 133, 153);
+    width: 8vw;
+    height: 8vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    transition: transform 1.5s;
+}
+
+#app3 .square.active{
+    transform: translateX(30vw);
+    border-radius: 50%;
+}
